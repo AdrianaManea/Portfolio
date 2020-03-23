@@ -56,6 +56,11 @@ body {
 	font-size: 50px;
 }
 
+
+.titleMessage .heading .text-primary-need {
+	color: #079992;
+}
+
 .titleMessage .heading .sub {
 	font-size: 23px;
 }
@@ -318,7 +323,7 @@ body {
 }
 
 .copyrightSection {
-	background-color: #000;
+	background-color: #333;
 	color: #fff;
 	padding: 30px 5px;
 }
@@ -327,9 +332,31 @@ body {
 	margin: 0;
 }
 
+#navigation {
+	background-color: #079992;
+	padding: 20px 10px;
+	z-index: 100;
+}
 
+#navigation li {
+	padding: 0 10px;
+}
 
+#navigation li a {
+	color: #fff;
+}
 
+.navbar-brand,
+.navbar-brand:hover {
+	color: #fff;
+}
 
+.navbar-toggler-icon {
+	background: url(../images/icons/menu.png);
+	background-size: 100%;
+}
 
-
+.fixedNav #navigation {
+	position: fixed;
+	top: 0;
+}
