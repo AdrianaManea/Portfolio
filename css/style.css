@@ -336,6 +336,7 @@ body {
 	background-color: #079992;
 	padding: 20px 10px;
 	z-index: 100;
+	width: 100%;
 }
 
 #navigation li {
@@ -360,3 +361,4 @@ body {
 	position: fixed;
 	top: 0;
 }
+
